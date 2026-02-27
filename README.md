@@ -1,12 +1,12 @@
-## Weather App
+# Weather App
 
-# About
+## About
 
 The Weather App is a simple web application that allows users to check the current weather conditions of any city in the world. The application fetches real-time weather data from a weather API and displays useful information such as temperature, weather condition, humidity, and wind speed.
 
 The goal of this project is to provide users with a clean and easy-to-use interface to quickly access weather updates.
 
-# Features
+## Features
 
 Search weather by city name
 
@@ -18,7 +18,7 @@ Display humidity and wind speed
 
 Responsive design for desktop and mobile devices
 
-# How It Works
+## How It Works
 
 Users simply type the name of a city in the search bar and the application retrieves the weather data from an API and displays the results instantly.
 
@@ -34,7 +34,7 @@ Humidity level
 
 Wind speed
 
-# Built With
+## Built With
 
 JavaScript
 
@@ -44,7 +44,7 @@ CSS
 
 Weather API
 
-# Prerequisites
+## Prerequisites
 
 Before running this project, make sure you have basic knowledge of:
 
@@ -56,7 +56,7 @@ APIs and Fetch
 
 Git & GitHub
 
-# Clone Project
+## Clone Project
 
 To get a local copy up and running follow these simple steps.
 
@@ -73,7 +73,7 @@ Start App
 Weather App Live Demo
 [https://chiaendu.github.io/Weather-app/]
 
-# Author
+## Author
 
 Name: CHia
 

@@ -1,4 +1,4 @@
-const apiKey = "31543b25bc43cc9ace5b64a598e982ca"; // gitleaks:allow
+const apiKey = '31543b25bc43cc9ace5b64a598e982ca' // gitleaks:allow
 
 // ========================
 const searchBtn = document.getElementById('search-btn')

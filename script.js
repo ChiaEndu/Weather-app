@@ -14,7 +14,7 @@ const errorMessage = document.getElementById('error-message')
 const dailyContainer = document.getElementById('daily')
 
 // SEARCH BUTTON
-function handleSearch() {
+function handleSearch () {
   const city = cityInput.value.trim()
   if (city) {
     getWeather(city)

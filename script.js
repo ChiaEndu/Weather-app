@@ -14,11 +14,19 @@ const errorMessage = document.getElementById('error-message')
 const dailyContainer = document.getElementById('daily')
 
 // SEARCH BUTTON
-searchBtn.addEventListener('click', () => {
+function handleSearch() {
   const city = cityInput.value.trim()
   if (city) {
     getWeather(city)
     saveLastCity(city)
+  }
+}
+
+searchBtn.addEventListener('click', handleSearch)
+
+cityInput.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    handleSearch()
   }
 })
 
